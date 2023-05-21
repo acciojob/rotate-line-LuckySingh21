@@ -2,9 +2,9 @@
 let temp = document.getElementById("line");
 
 function rotate() {
-	let new = document.createElement("div");
+	let newdiv = document.createElement("div");
 	new.className = "line";
-	temp.append(new);
+	temp.append(newdiv);
 }
 rotate();
 	
