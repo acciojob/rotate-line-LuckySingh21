@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+#line{
+	display : flex;
+	align-items : center;
+	justify-content : center;
+	width : 500px;
+	height : 500px;
+}
+
+.line{
+	background-color : black;
+	color : black;
+	whidth : 200px;
+	height : 2px;
+	animation : rotate 1s linear infinite;
+}
+
+@keyframe rotate{
+	from{
+		transition : rotate(0deg);
+	}
+	to{
+		transform : rotate(360deg);
+	}
+}
